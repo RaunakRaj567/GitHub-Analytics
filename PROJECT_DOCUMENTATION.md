@@ -1,7 +1,7 @@
-# PROJECT DOCUMENTATION — GitHub Analyzer V2.0
+# PROJECT DOCUMENTATION — GitHub Analytics
 
 > **Last audited:** 2026-08-30  
-> **Repository:** https://github.com/Saksham-2006/Github-Analyser-V2.0  
+> **Repository:** https://github.com/Saksham-2006/GitHub Analytics  
 > **Status:** Working MVP / Hackathon-ready
 
 ---
@@ -37,9 +37,9 @@
 
 ## 1. Project Overview
 
-### What is GitHub Analyzer?
+### What is GitHub Analytics?
 
-GitHub Analyzer is a full-stack web application that fetches, analyzes, and visualizes real GitHub developer data. Users enter a public GitHub username and receive a rich dashboard of statistics, contribution patterns, language distributions, coding streaks, and repository details — all derived from live GitHub API data.
+GitHub Analytics is a full-stack web application that fetches, analyzes, and visualizes real GitHub developer data. Users enter a public GitHub username and receive a rich dashboard of statistics, contribution patterns, language distributions, coding streaks, and repository details — all derived from live GitHub API data.
 
 ### Main Purpose
 
@@ -450,7 +450,7 @@ User types "octocat" on Analyze page
 4. Configure CORS middleware with allowed origins.
 5. `express.json()` middleware.
 6. Mount routes: `/api/github`, `/api/profiles`, `/api/chat`.
-7. Health check: `GET /` returns `{ message: "GitHub Analyzer API is running" }`.
+7. Health check: `GET /` returns `{ message: "GitHub Analytics API is running" }`.
 8. `app.listen(PORT)` — defaults to 5000.
 
 ### Middleware Order
@@ -620,7 +620,7 @@ The `errorHandler(res, error)` function in `githubRoutes.js` standardizes error 
 ```
 Authorization: Bearer <GITHUB_TOKEN>
 Accept: application/vnd.github+json
-User-Agent: GitHub-Analyzer
+User-Agent: github-analytics
 X-GitHub-Api-Version: 2022-11-28
 Content-Type: application/json
 ```

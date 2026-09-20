@@ -1,4 +1,4 @@
-# 📊 GitHub Analyser
+# 📊 GitHub Analytics
 
 A modern, high-performance web application designed to turn developer GitHub activity and repository metrics into insightful, visually stunning analytics. Built with **React 19**, **Vite**, **Tailwind CSS v4**, **Recharts**, and smooth motion animations.
 
@@ -6,7 +6,7 @@ A modern, high-performance web application designed to turn developer GitHub act
 
 ## 🚀 Overview
 
-**GitHub Analyser** provides an intuitive, sleek dashboard to help developers and teams explore contribution patterns, analyze repository statistics, inspect language distributions, and track coding streaks with ease.
+**GitHub Analytics** provides an intuitive, sleek dashboard to help developers and teams explore contribution patterns, analyze repository statistics, inspect language distributions, and track coding streaks with ease.
 
 ---
 
@@ -33,6 +33,9 @@ A modern, high-performance web application designed to turn developer GitHub act
   - Animated floating **Dock** navigation powered by Motion and Lucide icons.
   - Custom canvas & CSS loaders with smooth GSAP animations.
 
+- **🤖 AI Chatbot Assistant**
+  - Context-aware AI Chatbot powered by Google Gemini to analyze profiles, roast/review accounts, and suggest pinned repo strategies.
+
 ---
 
 ## 🛠️ Tech Stack
@@ -56,6 +59,7 @@ A modern, high-performance web application designed to turn developer GitHub act
 │   ├── assets/            # SVG icons and visual assets
 │   ├── components/        # Modular UI components
 │   │   ├── ActivityByWeek/
+│   │   ├── Chatbot/       # AI Chatbot component
 │   │   ├── CommitActivityChart/
 │   │   ├── ContributionGrid/
 │   │   ├── Dock/          # Floating interactive navigation dock
@@ -70,7 +74,7 @@ A modern, high-performance web application designed to turn developer GitHub act
 │   │   ├── RepositorySearch/
 │   │   └── StatCard/      # Highlight stat metric tiles
 │   ├── layouts/           # Global application layout wrappers
-│   ├── pages/             # App views (Dashboard, Activity, Repos, Analyze)
+│   ├── pages/             # App views (Dashboard, Activity, Repos, Compare, Analyze)
 │   ├── App.jsx            # Main route configurations
 │   ├── main.jsx           # Application entry point
 │   └── index.css          # Global Tailwind CSS styles
@@ -91,8 +95,8 @@ A modern, high-performance web application designed to turn developer GitHub act
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Saksham-2006/Github-Analyser.git
-   cd Github-Analyser
+   git clone https://github.com/RaunakRaj567/GitHub-Analytics.git
+   cd GitHub-Analytics/app
    ```
 
 2. Install dependencies:
@@ -115,22 +119,3 @@ A modern, high-performance web application designed to turn developer GitHub act
 - `npm run build` — Bundles and optimizes the app for production.
 - `npm run preview` — Locally previews the production build.
 - `npm run lint` — Runs Oxlint for fast code analysis.
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to check out the [issues page](https://github.com/Saksham-2006/Github-Analyser/issues).
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the repository for details.

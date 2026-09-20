@@ -6,7 +6,7 @@ const GITHUB_REST_ENDPOINT = "https://api.github.com";
 function getHeaders() {
   const headers = {
     Accept: "application/vnd.github+json",
-    "User-Agent": "GitHub-Analyzer",
+    "User-Agent": "GitHub-Analytics",
     "X-GitHub-Api-Version": "2022-11-28",
   };
 

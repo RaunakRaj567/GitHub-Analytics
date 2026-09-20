@@ -18,7 +18,7 @@ function Chatbot() {
         {
             role: "assistant",
             content:
-                "Hi! I'm your GitHub Analyzer AI. Ask me anything about GitHub, repositories, commits, or developer activity.",
+                "Hi! I'm your GitHub Analytics AI. Ask me anything about GitHub, repositories, commits, or developer activity.",
         },
     ]);
 

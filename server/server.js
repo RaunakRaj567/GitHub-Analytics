@@ -25,7 +25,7 @@ app.use("/api/chat", chatbotRoutes);
 
 app.get("/", (req, res) => {
   res.json({
-    message: "GitHub Analyzer API is running",
+    message: "GitHub Analytics API is running",
   });
 });
 

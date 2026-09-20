@@ -1,5 +1,5 @@
 {
-  "name": "github-analyzer-root",
+  "name": "github-analytics-root",
   "version": "1.0.0",
   "description": "Root package for running both servers concurrently",
   "scripts": {

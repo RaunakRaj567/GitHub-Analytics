@@ -70,7 +70,7 @@ function Repos() {
   const demoRepositories = [
     {
       id: 1,
-      name: "github-analyzer",
+      name: "github-analytics",
       description:
         "A tool for analyzing GitHub profiles and visualizing developer activity.",
       language: "JavaScript",
